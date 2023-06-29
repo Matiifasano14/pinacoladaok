@@ -47,6 +47,7 @@ header{
 }
 .h3{
     font-size: 2vw;
+    text-align: center;
 }
 .nav-link{
     text-decoration: none;
@@ -129,6 +130,7 @@ main h3 strong{
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: stretch;
     justify-content: center;
     gap: 50px;
 }
@@ -170,11 +172,20 @@ main h3 strong{
 #galeria-productos img:hover{
     border: 5px solid#f7f7f7;
 }
+.eta{
+    position: relative;
+}
 .nmprod{
     font-family: 'Agdasima', sans-serif;
-    position: absolute;
-    color: rgb(255, 254, 254);
+    color: rgb(241, 235, 235);
     font-size: 20px;
+    font-weight: 500;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
     /* FIN   PAGINA   PRODUCTOS */
