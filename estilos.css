@@ -153,9 +153,10 @@ main h3 strong{
     margin-bottom: 20px;
 }
 #loveanddedication{
+    font-size: 30px;
+    text-align: center;
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
-    font-size: 30px;
     text-transform: uppercase;
     color: black;
 }
@@ -220,6 +221,7 @@ footer{
     width: 100%;
     display: flex;
     text-align: center;
+    padding: 10px;
 }
 .redes{
     display:flex;
