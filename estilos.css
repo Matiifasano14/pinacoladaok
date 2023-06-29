@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
+/*font-family: 'Grandiflora One', serif;*/
+
+/*PRECIO Y NOMBRE DE PRENDAS*/
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Barlow:wght@300&display=swap');
+/*font-family: 'Barlow', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+/* font-family: 'Agdasima', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* h  e  c  h  o   c  o  n   b  o  o  t  s  t  r  a  p   e  n   S  A  L  E */
+/* FOTO DE FONDO DE CADA PAGINA */
+.bgpicprod{
+    background-image: url(imagenes/man-2425121.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+}
+.bgpicindx{
+    background-image: url(imagenes/close-up-1844786_1280.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+}
+.bgdegrade{
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 100%;
+}
+.h1{
+    font-family: 'Grandiflora One', serif;
+    font-size: 300%;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(226, 220, 220);
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+.nav-link:hover{
+    color: rgb(20, 20, 17);
+    background-color: rgb(226, 220, 220);
+    border-radius: 10px;
+}
+/* h  e  c  h  o   c  o  n   b  o  o  t  s  t  r  a  p   e  n   S  A  L  E */
+/*FIN HEADER*/
+/*INICIO MAIN*/
+main{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+main h3{
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+main h3 strong{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.caja{
+    position: relative;
+}
+.caja a{
+    text-decoration: none;
+    color: black;
+}
+.caja img{
+    width: 325px;
+    height: 66vh;
+}
+.caja h4{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Grandiflora One', serif;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.caja h5{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+/* MARCA DE AGUA EN FOTOS CONTENEDORES */
+.newinfoto{
+    font-family: 'Barlow', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    color: black;
+    font-size: 10px;
+}
+/* FIN MARCA DE AGUA CONTENEDORES */
+/* INICIO CONTENEDOR 2 INDEX */
+.contenedor2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+/* FIN CONTENEDOR 2 INDEX */
+/* INICIO CONTENEDOR 3 PIJAMAS INDEX */
+.coleccionpijamas{
+    font-family: 'Grandiflora One', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contenedor3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.caja3 img{
+    height: 68vh;
+    margin-bottom: 20px;
+}
+#loveanddedication{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+/* FIN CONTENEDOR 3 PIJAMAS INDEX */
+/* FIN MAIN */
+/* PAGINA     PRODUCTOS */
+#galeria-productos img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#galeria-productos .col-lg-4{
+    padding: 25px;
+}
+#galeria-productos img:hover{
+    border: 5px solid#f7f7f7;
+}
+.nmprod{
+    font-family: 'Agdasima', sans-serif;
+    position: absolute;
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+}
+.row div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    /* FIN   PAGINA   PRODUCTOS */
+
+/* P R E V I O   F O O T E R */
+.previofooter{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.previofooter li{
+    list-style: none;
+    text-align: center;
+}
+.previofooter li a{
+    color: #db209633;
+    font-size: 60px;
+}
+.previofooter h5{
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+/* INICIO FOOTER */
+footer{
+    background-color: #db209633;
+}
+.redes{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 150%;
+}
