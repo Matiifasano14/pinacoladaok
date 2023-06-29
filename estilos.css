@@ -180,7 +180,7 @@ main h3 strong{
     color: rgb(241, 235, 235);
     font-size: 20px;
     font-weight: 500;
-    z-index: 3;
+    z-index: 2;
     position: absolute;
     top: 0;
     right: 0;
