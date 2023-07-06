@@ -211,6 +211,59 @@ main h3 strong{
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
+
+/* PAGINA PRODUCTOS INDIVIDUALES */
+
+.productosindividuales{
+    background-color: aqua;
+    width: 45%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "sweatterlia1 sweatterlia2"
+    "sweatterlia3 sweatterlia4"
+    ;
+    margin-left: 10%;
+}
+.productoydescripcion{
+    display: flex;
+}
+.h4{
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.precio{
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.box{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.sweatterlia1{
+    background-image: url(imagenes/sweatter\ lia\ \(1\).jpg);
+    grid-area: sweatterlia1;
+}
+.sweatterlia2{
+    background-image: url(imagenes/sweatter\ lia\ \(2\).jpg);
+    grid-area: sweatterlia2;
+}
+.sweatterlia3{
+    background-image: url(imagenes/sweatter\ lia\ \(3\).jpg);
+    grid-area: sweatterlia3;
+}
+.sweatterlia4{
+    background-image: url(imagenes/sweatter\ lia\ \(4\).jpg);
+    grid-area: sweatterlia4;
+}
+/* FIN PAGINA PRODUCTOS INDIVIDUALES */
 /* INICIO FOOTER */
 footer{
     background-color: #db209633;
